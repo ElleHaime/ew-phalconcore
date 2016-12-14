@@ -1,0 +1,55 @@
+<?php
+/**
+ * @namespace
+ */
+namespace {namespace};
+
+/**
+ * Test for class {className}
+ *
+ * @class {testClassName}
+ * @package {namespace}
+ */
+class {testClassName} extends \PHPUnit_Framework_TestCase
+{
+    /**
+     * @var {fullClassName}
+     */
+    protected $_object;
+
+    /**
+     * Called before the first test of the test case class
+     */
+    public static function setUpBeforeClass()
+    {
+
+    }
+
+    /**
+     * Sets up the fixture, for example, opens a network connection.
+     * This method is called before a test is executed.
+     */
+    protected function setUp()
+    {
+        {constructArgumentsInitialize}
+        $this->_object = new {fullClassName}({constructArguments});
+    }
+
+    /**
+     * Tears down the fixture, for example, closes a network connection.
+     * This method is called after a test is executed.
+     */
+    protected function tearDown()
+    {
+        $this->_object = null;
+    }
+{methods}
+    /**
+     * Called after the last test of the test case class
+     */
+    public static function tearDownAfterClass()
+    {
+
+    }
+{mocks}
+}

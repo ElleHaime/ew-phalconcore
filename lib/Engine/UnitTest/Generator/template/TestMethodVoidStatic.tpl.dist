@@ -1,0 +1,11 @@
+
+    /**
+     * Test for "{methodComment}"
+     *
+     * @covers {className}::{origMethodName}
+     */
+    public function test{methodName}()
+    {
+        {argumentsInitialize}
+        {className}::{origMethodName}({arguments});
+    }

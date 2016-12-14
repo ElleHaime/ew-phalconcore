@@ -1,0 +1,18 @@
+<?php
+/**
+ * @namespace
+ */
+namespace {namespace};
+
+/**
+ * Base Test class
+ *
+ * @class Abstract base class
+ * @package {namespace}
+ */
+abstract class Base extends \PHPUnit_Framework_TestCase
+{
+
+}
+
+

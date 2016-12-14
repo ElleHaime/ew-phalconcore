@@ -1,0 +1,12 @@
+
+    /**
+     * Test for "{methodComment}"
+     *
+     * @covers {className}::{origMethodName}
+     * @expectedException {expected}
+     */
+    public function test{methodName}()
+    {
+        {argumentsInitialize}
+        $this->_object->{origMethodName}({arguments});
+    }

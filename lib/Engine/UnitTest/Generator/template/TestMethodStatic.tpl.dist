@@ -1,0 +1,14 @@
+
+    /**
+     * Test for "{methodComment}"
+     *
+     * @covers {className}::{origMethodName}
+     */
+    public function test{methodName}()
+    {
+        {argumentsInitialize}
+        $this->assert{assertion}(
+            {expected},
+            {className}::{origMethodName}({arguments})
+        );
+    }

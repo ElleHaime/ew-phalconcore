@@ -1,0 +1,11 @@
+
+    /**
+     * Initialize mock object for class {mockClassName}
+     *
+     * @return \{mockClassName}
+     */
+    private function _{mockMethodName}()
+    {
+        ${mockName} = {mock}
+        return ${mockName};
+    }

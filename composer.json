@@ -1,0 +1,26 @@
+{
+    "name": "tieste/phalcon-core",
+    "type": "library",
+    "description": "Web project engine base on Phalcon framework",
+    "keywords": ["phalcon", "engine", "core", "crud", "grid"],
+    "homepage": "https://bitbucket.org/tieste/phalconcore.git",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0",
+        "ext-phalcon": ">=2.0.7",
+        "ruflin/elastica": "3.1.0"
+    },
+    "authors": [
+        {
+            "name": "Artem Onyshchenko",
+            "email": "temafey@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Engine": "lib/",
+            "Engine\\Test": "test/lib/"
+        }
+    }
+}
